@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letcop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!-- start header page -->
+  <header>
+    <div class="container">
+      <div class="row no-gutters navbar">
+        <div class="col-1 d-flex justify-content-center ml-auto">
+          <img src="assets/icons/nav_logo.png" alt="" class="nav_logo">
+        </div>
+        <div class=" col-md-5 desktop_nav_items mr-auto">
+          <ul class="nav_item">
+            <li class="nav_list"><a href="#">Заказы</a></li>
+            <li class="nav_list"><a href="#">Вакансии</a></li>
+            <li class="nav_list nav_list_keydown">Люди
+              <i class="fas fa-angle-down"></i>
+              <div class="nav_list_info">
+                <a class="nav_last_info" href="#">Все исполнители</a>
+                <a class="nav_last_info" href="#">Все команды</a>
+                <a class="nav_last_info" href="#">Офлайн специалисты</a>
+              </div>
+            </li>
+            <li class="nav_list nav_list_keydown">Фрум
+              <i class="fas fa-angle-down"></i>
+              <div class="nav_list_info">
+                <a class="nav_last_info" href="#">Lorem</a>
+                <a class="nav_last_info" href="#">Lorem</a>
+                <a class="nav_last_info" href="#">Lorem</a>
+              </div>
+
+            </li>
+            <li class="nav_list nav_list_keydown">Еще
+              <i class="fas fa-angle-down"></i>
+              <div class="nav_list_info">
+                <a class="nav_last_info" href="#">Реферальная программа</a>
+                <a class="nav_last_info" href="#">База знаний</a>
+                <a class="nav_last_info" href="#">Новости</a>
+                <a class="nav_last_info" href="#">Форум</a>
+                <a class="nav_last_info" href="#">Тарифы</a>
+                <a class="nav_last_info" href="#">Блог</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-8 col-10 d-flex align-center justify-content-between nav_right ml-auto">
+          <div class="nav_language">
+            <select name="" id="">
+              <option value="">Ru</option>
+              <option value="">Eng</option>
+              <option value="">Uz</option>
+            </select>
+          </div>
+          <div class="nav_signIn">
+            <a href="#" class="registration">
+              <img src="assets/icons/sign-in.png" alt="">
+              Регистрация
+            </a>
+            <div class="line"></div>
+            <a href="#" class="sign_in">Войти</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- start mobile navbar ********************* -->
+    <div class="menu_burger">
+      <div class="menu_burger_list" id="burger_list1"></div>
+      <div class="menu_burger_list" id="burger_list2"></div>
+      <div class="menu_burger_list" id="burger_list3"></div>
+    </div>
+
+    <div class="nav_mobile">
+      <ul class="nav_item_mobile">
+        <li class="nav_list"><a href="#">Заказы</a></li>
+        <li class="nav_list"><a href="#">Вакансии</a></li>
+        <li class="nav_list nav_list_keydown">Люди
+          <i class="fas fa-angle-down"></i>
+          <div class="nav_list_info">
+            <a class="nav_last_info" href="#">Все исполнители</a>
+            <a class="nav_last_info" href="#">Все команды</a>
+            <a class="nav_last_info" href="#">Офлайн специалисты</a>
+          </div>
+        </li>
+        <li class="nav_list nav_list_keydown">Фрум
+          <i class="fas fa-angle-down"></i>
+          <div class="nav_list_info">
+            <a class="nav_last_info" href="#">Lorem</a>
+            <a class="nav_last_info" href="#">Lorem</a>
+            <a class="nav_last_info" href="#">Lorem</a>
+          </div>
+
+        </li>
+        <li class="nav_list nav_list_keydown">Еще
+          <i class="fas fa-angle-down"></i>
+          <div class="nav_list_info">
+            <a class="nav_last_info" href="#">Реферальная программа</a>
+            <a class="nav_last_info" href="#">База знаний</a>
+            <a class="nav_last_info" href="#">Новости</a>
+            <a class="nav_last_info" href="#">Форум</a>
+            <a class="nav_last_info" href="#">Тарифы</a>
+            <a class="nav_last_info" href="#">Блог</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="nav_mobile_bgc"></div>
+    <!-- End Navbar -->
+
+    <div class="container header_title">
+      <div class="row">
+        <div class="col-12">
+          <span class="header_title_text">Биржа Letcop </span>
+        </div>
+        <div class="col-12">
+          <span class="title_last_text">
+            Одна из первых фриланс-бирж в Средней Азии
+          </span>
+        </div>
+        <div class="col-12 header_form">
+          <form action="#">
+            <input type="text" placeholder="Что нужно сделать?" required>
+            <button type="submit">Заказать</button>
+          </form>
+        </div>
+        <div class="col-12 header_link">
+          <span class="header_link_text">Например: <a href="#">создать сайт</a> или <a href="#">написать продающий
+              текст</a></span>
+        </div>
+      </div>
+      <div class="row row_start_button">
+        <div class="col-md-3 col-sm-6 col-10 ml-auto">
+          <button class="start_new">с чего начать?</button>
+        </div>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">1</div>
+            <div class="circle_text">
+              <span class="span-text">Заказчик</span>
+              <p>Размещает свой заказ
+                за пару минут</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">2</div>
+            <div class="circle_text">
+              <span class="span-text">Исполнитель</span>
+              <p>Предлагают услуги,
+                цены и сроки</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">3</div>
+            <div class="circle_text">
+              <span class="span-text">Заказчик</span>
+              <p>Выбирает подходя-
+                щего исполнителя</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">4</div>
+            <div class="circle_text">
+              <span class="span-text">Исполнитель</span>
+              <p>Выполняет работу
+                и получает оплату</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script src="assets/js/header.js"></script>
+</body>
+
+</html>

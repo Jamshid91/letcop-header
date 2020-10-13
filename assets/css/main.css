@@ -240,7 +240,7 @@ body header .change {
 }
 
 body header .header_title {
-  margin-top: 190px;
+  margin-top: 100px;
 }
 
 body header .header_title_text {
@@ -297,7 +297,7 @@ body header .start_new {
   height: 30px;
   font-size: 14px;
   border-radius: 20px;
-  margin-bottom: 145px;
+  margin-bottom: 119px;
 }
 
 body header .header_bottom {
@@ -306,7 +306,7 @@ body header .header_bottom {
   right: 0;
   bottom: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: #0f0e40;
   opacity: .8;
 }
@@ -443,7 +443,19 @@ body header .header_bottom .circle_text p {
     width: 50% !important;
   }
   body .start_new {
-    margin-bottom: 210px !important;
+    margin-bottom: 180px !important;
+  }
+  body .mobile_header_title {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    text-align: center !important;
   }
 }
 

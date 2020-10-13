@@ -77,7 +77,13 @@ body {
       width: 50% !important;
     }
     .start_new {
-      margin-bottom: 210px !important;
+      margin-bottom: 180px !important;
+    }
+    .mobile_header_title {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
     }
   }
 }
